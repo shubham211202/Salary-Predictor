@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Predictor</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<h2>💼 Salary Prediction App</h2>
+
+<input type="number" id="exp" placeholder="Enter years of experience">
+<button onclick="predictSalary()">Predict</button>
+
+<h3 id="result"></h3>
+
+<script>
+function predictSalary() {
+    let exp = document.getElementById("exp").value;
+
+    if (!exp) {
+        alert("Please enter experience");
+        return;
+    }
+
+    document.getElementById("result").innerText = "Predicting...";
+
+    fetch("http://127.0.0.1:10000/predict", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            experience: exp
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.error) {
+            document.getElementById("result").innerText = data.error;
+        } else {
+            document.getElementById("result").innerText =
+                "💰 Predicted Salary: " + data.predicted_salary;
+        }
+    })
+    .catch(err => {
+        document.getElementById("result").innerText = "Error connecting to server";
+    });
+}
+</script>
+
+</body>
+</html>
