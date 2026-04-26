@@ -1,19 +1,11 @@
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import joblib
-
-# Get current directory (backend/)
-BASE_DIR = os.path.dirname(__file__)
-
-# Build model path
-MODEL_PATH = os.path.join(BASE_DIR, "salary_model.pkl")
-
-# Load model
-model = joblib.load(MODEL_PATH)
+from src.predict import predict_salary
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://www.technoxyz.shop"}})
+CORS(app)
+
 
 @app.route("/")
 def home():
@@ -32,19 +24,18 @@ def predict():
         exp = float(data["experience"])
 
         # Predict
-        prediction = model.predict([[exp]])
+        result = predict_salary(exp)
 
         return jsonify({
             "experience": exp,
-            "predicted_salary": float(prediction[0])
+            "predicted_salary": float(result)
         })
 
     except ValueError:
         return jsonify({"error": "Experience must be a number"}), 400
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
-
+        return jsonify({"error": "Internal Server Error"}), 500
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug=True)
