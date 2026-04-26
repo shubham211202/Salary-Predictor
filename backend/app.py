@@ -13,7 +13,7 @@ MODEL_PATH = os.path.join(BASE_DIR, "salary_model.pkl")
 model = joblib.load(MODEL_PATH)
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://www.technoxyz.shop"}})
 
 @app.route("/")
 def home():
