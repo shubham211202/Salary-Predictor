@@ -2,6 +2,7 @@ import joblib
 import os
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "../models", "salary_model.pkl")
+MODEL_PATH = os.path.abspath(MODEL_PATH)
 
 model = joblib.load(MODEL_PATH)
 

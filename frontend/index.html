@@ -70,7 +70,7 @@ function predictSalary() {
     // Show loading message
     result.innerText = "⏳ Waking server... please wait";
 
-    fetch("http://127.0.0.1:5000/", {
+    fetch("http://127.0.0.1:10000/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
