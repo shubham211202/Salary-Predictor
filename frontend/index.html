@@ -70,7 +70,7 @@ function predictSalary() {
     // Show loading message
     result.innerText = "⏳ Waking server... please wait";
 
-    fetch("https://salary-predictor-w0gt.onrender.com/predict", {
+    fetch("http://127.0.0.1:10000/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

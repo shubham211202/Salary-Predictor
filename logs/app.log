@@ -73,3 +73,33 @@
 2026-04-28 08:48:08,549 - INFO - Received input: 4.0
 2026-04-28 08:48:08,553 - INFO - Prediction: 86198.57605555782
 2026-04-28 08:48:08,553 - INFO - 127.0.0.1 - - [28/Apr/2026 08:48:08] "POST /predict HTTP/1.1" 200 -
+2026-04-28 10:14:50,253 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 10:14:50,253 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 10:14:50,268 - INFO -  * Restarting with stat
+2026-04-28 10:14:52,842 - WARNING -  * Debugger is active!
+2026-04-28 10:14:52,848 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 10:14:53,080 - INFO - 127.0.0.1 - - [28/Apr/2026 10:14:53] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-28 10:14:53,085 - INFO - Request data: {'experience': 5}
+2026-04-28 10:14:53,086 - INFO - Received input: 5.0
+2026-04-28 10:14:53,122 - INFO - Prediction: 93235.93438994727
+2026-04-28 10:14:53,122 - INFO - 127.0.0.1 - - [28/Apr/2026 10:14:53] "POST /predict HTTP/1.1" 200 -
+2026-04-28 10:15:41,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 10:15:41,899 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 10:15:41,902 - INFO -  * Restarting with stat
+2026-04-28 10:15:43,927 - WARNING -  * Debugger is active!
+2026-04-28 10:15:43,935 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 10:15:44,046 - INFO - 127.0.0.1 - - [28/Apr/2026 10:15:44] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-28 10:15:44,052 - INFO - Request data: {'experience': 5}
+2026-04-28 10:15:44,052 - INFO - Received input: 5.0
+2026-04-28 10:15:44,054 - INFO - Prediction: 93235.93438994727
+2026-04-28 10:15:44,055 - INFO - 127.0.0.1 - - [28/Apr/2026 10:15:44] "POST /predict HTTP/1.1" 200 -
+2026-04-28 10:15:45,533 - INFO - Request data: {'experience': 5}
+2026-04-28 10:15:45,535 - INFO - Received input: 5.0
+2026-04-28 10:15:45,536 - INFO - Prediction: 93235.93438994727
+2026-04-28 10:15:45,537 - INFO - 127.0.0.1 - - [28/Apr/2026 10:15:45] "POST /predict HTTP/1.1" 200 -
