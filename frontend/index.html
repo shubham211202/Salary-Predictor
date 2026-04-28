@@ -70,7 +70,7 @@ function predictSalary() {
     // Show loading message
     result.innerText = "⏳ Waking server... please wait";
 
-    fetch("https://www.technoxyz.shop", {
+    fetch("https://www.technoxyz.shop/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
