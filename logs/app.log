@@ -1,0 +1,75 @@
+2026-04-28 08:36:57,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-28 08:36:57,901 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:36:57,901 - INFO -  * Restarting with stat
+2026-04-28 08:37:00,301 - WARNING -  * Debugger is active!
+2026-04-28 08:37:00,305 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:37:54,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-28 08:37:54,331 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:37:54,331 - INFO -  * Restarting with stat
+2026-04-28 08:37:56,274 - WARNING -  * Debugger is active!
+2026-04-28 08:37:56,279 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:41:27,654 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-28 08:41:27,654 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:41:27,654 - INFO -  * Restarting with stat
+2026-04-28 08:41:29,860 - WARNING -  * Debugger is active!
+2026-04-28 08:41:29,863 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:41:48,524 - INFO -  * Detected change in 'C:\\Users\\Shubham Kumar\\Documents\\Salary-Predict\\app.py', reloading
+2026-04-28 08:41:48,792 - INFO -  * Restarting with stat
+2026-04-28 08:42:13,242 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 08:42:13,242 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:42:43,899 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 08:42:43,899 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:42:43,904 - INFO -  * Restarting with stat
+2026-04-28 08:42:46,176 - WARNING -  * Debugger is active!
+2026-04-28 08:42:46,178 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:42:55,534 - INFO -  * Detected change in 'C:\\Users\\Shubham Kumar\\Documents\\Salary-Predict\\src\\logger.py', reloading
+2026-04-28 08:42:55,679 - INFO -  * Restarting with stat
+2026-04-28 08:42:57,850 - WARNING -  * Debugger is active!
+2026-04-28 08:42:57,850 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:45:01,946 - ERROR - 127.0.0.1 - - [28/Apr/2026 08:45:01] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00')
+2026-04-28 08:45:01,946 - INFO - 127.0.0.1 - - [28/Apr/2026 08:45:01] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x11~B\x80¨,g\x07©\x9a?\x06\x09åÝ@ÒÚ\x08//y\x9fÜqòe\x89\x98\x8e\x12  2BÙbc¾VÌîÜ\x95ú\x83}D«ú¨W¦\x1fv\x98âÞô\x17õÁ4Ñ6\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2026-04-28 08:45:01,953 - ERROR - 127.0.0.1 - - [28/Apr/2026 08:45:01] code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06')
+2026-04-28 08:45:01,953 - INFO - 127.0.0.1 - - [28/Apr/2026 08:45:01] "[35m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03Þ)Hºú\x84ÙÜîøztã~Ñúü\x9cRs(gÍ8r¹á13ØÕ\x06 ¢ÓøMÏÒH\x9f\x00Õ°\x02IÍ¼*ÁuÁ4pK«Ï\x03ÍìÒÚø<t\x00 JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sêê\x00\x00ÿ\x01\x00\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00+\x00\x07\x06[0m" HTTPStatus.BAD_REQUEST -
+2026-04-28 08:45:59,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 08:45:59,427 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:45:59,434 - INFO -  * Restarting with stat
+2026-04-28 08:46:02,844 - WARNING -  * Debugger is active!
+2026-04-28 08:46:02,854 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:47:10,488 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 08:47:10,490 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:47:10,500 - INFO -  * Restarting with stat
+2026-04-28 08:47:13,238 - WARNING -  * Debugger is active!
+2026-04-28 08:47:13,252 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:47:38,359 - INFO - 127.0.0.1 - - [28/Apr/2026 08:47:38] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-28 08:47:38,367 - INFO - Request data: {'experience': 5}
+2026-04-28 08:47:38,370 - INFO - Received input: 5.0
+2026-04-28 08:47:38,375 - INFO - Prediction: 93235.93438994727
+2026-04-28 08:47:38,377 - INFO - 127.0.0.1 - - [28/Apr/2026 08:47:38] "POST /predict HTTP/1.1" 200 -
+2026-04-28 08:47:57,643 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.232.117.57:10000
+2026-04-28 08:47:57,643 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-28 08:47:57,643 - INFO -  * Restarting with stat
+2026-04-28 08:48:00,439 - WARNING -  * Debugger is active!
+2026-04-28 08:48:00,448 - INFO -  * Debugger PIN: 171-688-674
+2026-04-28 08:48:08,536 - INFO - 127.0.0.1 - - [28/Apr/2026 08:48:08] "OPTIONS /predict HTTP/1.1" 200 -
+2026-04-28 08:48:08,549 - INFO - Request data: {'experience': 4}
+2026-04-28 08:48:08,549 - INFO - Received input: 4.0
+2026-04-28 08:48:08,553 - INFO - Prediction: 86198.57605555782
+2026-04-28 08:48:08,553 - INFO - 127.0.0.1 - - [28/Apr/2026 08:48:08] "POST /predict HTTP/1.1" 200 -
